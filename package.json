@@ -1,0 +1,16 @@
+{
+  "name": "firstProject",
+  "version": "1.0.0",
+  "description": "VS Code project with Playwright and MCP support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
